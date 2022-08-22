@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 schema:
-  file: ./schema.graphql
+  file: schema.graphql
 dataSources:
   - kind: ethereum
     name: KyberSwapElasticLM
@@ -16,8 +16,8 @@ dataSources:
         - EmergencyWithdraw
       abis:
         - name: KyberSwapElasticLM
-          file: ./abis/KyberSwapElasticLM.json
+          file: KyberSwapElasticLM/abis/KyberSwapElasticLM.json
       eventHandlers:
         - event: EmergencyWithdraw(address,indexed uint256)
           handler: handleEmergencyWithdraw
-      file: ./src/mapping.ts
+      file: KyberSwapElasticLM/KyberSwapElasticLM.wasm
