@@ -4,11 +4,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: KyberSwapElasticLM
-    network: avalanche
+    network: polygon
     source:
       abi: KyberSwapElasticLM
       address: "0x5C503D4b7DE0633f031229bbAA6A5e4A31cc35d8"
-      startBlock: 18534115
+      startBlock: 31653670
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6

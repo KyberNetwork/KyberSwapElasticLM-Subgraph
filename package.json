@@ -7,7 +7,7 @@
     "deploy": "graph deploy --node https://api.thegraph.com/deploy/ KyberNetwork/KyberSwapElasticLM-${NETWORK}",
     "create-local": "graph create --node http://localhost:8020/ KyberNetwork/KyberSwapElasticLM-${NETWORK}",
     "remove-local": "graph remove --node http://localhost:8020/ KyberNetwork/KyberSwapElasticLM-${NETWORK}",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 KyberNetwork/KyberSwapElasticLM-${NETWORK}",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5002 KyberNetwork/KyberSwapElasticLM-${NETWORK}",
     "create-kyber": "graph create --node https://${NETWORK}-graph.kyberengineering.io/admin KyberNetwork/KyberSwapElasticLM-${NETWORK}",
     "remove-kyber": "graph remove --node https://${NETWORK}-graph.kyberengineering.io/admin KyberNetwork/KyberSwapElasticLM-${NETWORK}",
     "deploy-kyber": "graph deploy --node https://${NETWORK}-graph.kyberengineering.io/admin KyberNetwork/KyberSwapElasticLM-${NETWORK}"
