@@ -1,3 +1,5 @@
+This repo is archived as we moved all our subgraphs to a single mono repo, please check here: https://github.com/KyberNetwork/subgraphs
+
 # Subgraph for Elastic LM 
 Extract data from Elastic Liquidity Mining contract
 
