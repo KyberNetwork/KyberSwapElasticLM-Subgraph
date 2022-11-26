@@ -4,10 +4,10 @@ import {
 import { EmergencyWithdrawInfo } from "../generated/schema"
 
 export function handleEmergencyWithdraw(event: EmergencyWithdraw): void {
-  let info = new EmergencyWithdrawInfo(event.transaction.hash.toHex()+event.params.nftId.toString())
+  let info = new EmergencyWithdrawInfo(event.transaction.hash.toHex() + event.params.nftId.toString())
 
   info.number = event.block.number
-  info.timestamp = event.block.timestamp
+  info.timestamps = event.block.timestamp
   info.sender = event.params.sender.toHex()
   info.nftID = event.params.nftId
   info.transaction = event.transaction.hash

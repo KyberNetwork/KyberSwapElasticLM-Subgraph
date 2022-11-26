@@ -1,7 +1,7 @@
 type EmergencyWithdrawInfo @entity {
   id: ID!
   number: BigInt! # block number
-  timestamp: BigInt! # block timestamp
+  timestamps: BigInt! # block timestamp
   sender: String # user address
   nftID: BigInt!
   transaction: Bytes # Transaction hash
